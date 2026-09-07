@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}   
+
+h2{
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+form {
+    margin: 0px;
+}
+#num1, #num2, #styleSelect, #styledText, #total , button {
+    margin-bottom: 12px;
+}
+
+button {
+    color: black;
+    background-color: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    margin-top: 12px;
+}
+
+#addForm {
+    margin-bottom: 48px;
+}
+
+p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+button {
+    margin-top: 4px;
+}
+
+.normal {
+    font-style: normal;
+    font-weight: normal;
+}
+
+.bold {
+    font-weight: bold;
+    font-style: normal;
+}
+
+.italic {
+    font-style: italic;
+    font-weight: normal;
+}
+
+.bold-italic {
+    font-weight: bold;
+    font-style: italic;
+}
