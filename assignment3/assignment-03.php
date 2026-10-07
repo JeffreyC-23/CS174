@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $num2 = isset($_POST["num2"]) ? trim($_POST["num2"]) : "";
     $op = isset($_POST["op"]) ? $_POST["op"] : "";
 
-    // Validation — errors in red
+    // Validation - errors in red
     if ($num1 === "" || !is_numeric($num1)) {
         $errorMessage = "Input 1 is missing or not a valid number";
     } elseif ($num2 === "" || !is_numeric($num2)) {
